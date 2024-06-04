@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Write a program to identify the largest number in the 
+        given array.<br>
+        A = [24, 53, 78, 91, 12].<br>
+        </h1>
+        <script>
+            // Define the array
+            const A = [24, 53, 78, 91, 12];
+        
+            // Initialize a variable to store the largest number
+            let largest = A[0];
+        
+            // Loop through the array to find the largest number
+            for (let i = 1; i < A.length; i++) {
+                if (A[i] > largest) {
+                    largest = A[i];
+                }
+            }
+        
+            // Output the largest number
+            document.write("<p>The largest number in the array is: " + largest + "</p>");
+        </script>
+    
+</body>
+</html>
